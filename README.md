@@ -7,5 +7,5 @@ Python script to download YouTube videos in mp3 from [mp3-convert.org](https://m
 ## Usage
 
 ```
-python3 mp3cnvrtrcrwlr.py [youtubevideourl]
+python3 mp3cnvrtrcrwlr.py youtube_video_url
 ```

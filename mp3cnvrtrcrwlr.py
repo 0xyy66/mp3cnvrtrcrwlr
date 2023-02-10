@@ -1,7 +1,12 @@
 import httpx
 import json
+import argparse
 
-def dlvdo(yt):
+parser = argparse.ArgumentParser()
+parser.add_argument('youtube_video_url')
+args = parser.parse_args()
+
+def dlmp3(yt):
         if 'watch?v=' in yt:
                 vdo = yt.split('watch?v=')[1].strip()
         else:
@@ -28,5 +33,4 @@ def dlvdo(yt):
                         print('Failed to download. Check for errors in the input url. Otherwise contact me, I may have to fix the code. Or if you fixed it, just make a pull request')
 
 if __name__ == "__main__":
-        yt = input("Enter yt url: ")
-        dlvdo(yt)
+        dlmp3(args.youtube_video_url)
