@@ -1,6 +1,6 @@
 # mp3cnvrtrcrwlr
 
-![mp3cnvrtrcrwlr](https://user-images.githubusercontent.com/72035730/218251459-5b0c02b9-3ec8-491c-b38f-cad2f4dfcfd0.png)
+<img src="https://user-images.githubusercontent.com/72035730/218251459-5b0c02b9-3ec8-491c-b38f-cad2f4dfcfd0.png" width="300">
 
 ## About
 
